@@ -1,4 +1,4 @@
-# semantic-html-and-accessibility
+# Semantic-Html-And-Accessibility
 
 # Sample HTML Code
 
