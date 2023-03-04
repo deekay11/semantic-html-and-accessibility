@@ -5,13 +5,21 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style/styles.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+            rel="stylesheet">
         <title>Tech Returner News</title>
+        <script src="script.js"></script>
     </head>
 
     <body class="main-body">
 
         <!-- Navbar -->
-        <nav class="navbar">
+        <!-- <nav class="navbar">
             <ul class="navbar-list">
                 <li class="navbar-item active"><a href="home">Home</a></li>
                 <li class="navbar-item"><a href="#">News</a></li>
@@ -23,6 +31,15 @@
                 <li class="navbar-item"><a href="#">Lifestyle</a></li>
                 <li class="navbar-item"><a href="#">Jobs</a></li>
             </ul>
+        </nav> -->
+        <nav class="navbar" id="myNavbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="#">News</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <a href="#" class="icon" onclick="toggleNavbars()">
+                <i class="fa fa-bars"></i>
+            </a>
         </nav>
         <!-- Newspaper Name -->
         <h1 class="newspaper-name"><a href="index.html">Tech Returner News</a></h1>
